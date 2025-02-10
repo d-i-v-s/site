@@ -70,19 +70,21 @@ export default function About({ onNavigate }: ProjectsProps) {
             </motion.div>
           ))}
           </motion.div>
-
-          <motion.div variants={fadeInDown} className="flex justify-center md:w-2/3 lg:w-1/4">
+          
+          <motion.div variants={fadeInDown} className="flex flex-col justify-center md:w-2/3 lg:w-1/4">
+          <Separator className="my-4" />
+          </motion.div>
             <motion.button
               variants={fadeInDown}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               onClick={() => onNavigate("home")}
-              className="mt-4"
+              className="mt-2"
 
             >
               back home
             </motion.button>
-          </motion.div>
+          
         </motion.div>
       </motion.div>
   );

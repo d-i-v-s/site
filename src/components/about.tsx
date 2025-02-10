@@ -26,14 +26,21 @@ export default function About({ onNavigate }: AboutProps) {
           <Separator className="my-4" />
         </motion.div>
         <motion.div variants={fadeInLeft} className="text-center">
-          <p>todo</p>
-
+          <p>full stack dev based in vienna, austria.</p>
+          <Separator className="my-4" />
+          <h2 className="text-lg font-bold">skills</h2>
+          <p>typescript, javascript, python, c#, java, django, spring boot, react, .net, html, css</p>
+          <Separator className="my-4" />
+          <h2 className="text-lg font-bold">experience</h2>
+          <p className="font-bold">apr 2024 - present:</p>
+          <p>full stack dev at ANANTARA GmbH</p>
+          <Separator className="my-4" />
           <motion.button
             variants={fadeInLeft}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             onClick={() => onNavigate("home")}
-            className="mt-4"
+            className="mt-2"
           >
             back home
           </motion.button>
