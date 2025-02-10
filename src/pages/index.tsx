@@ -10,6 +10,8 @@ export default function Home() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen px-4 md:px-8 lg:px-16">
+      <title>wiktor ramian.</title>
+      <meta name="description" content="wiktor ramian's portfolio" />
       <AnimatePresence mode="wait">
         {currentPage === "home" && <Landing onNavigate={setCurrentPage} />}
         {currentPage === "about" && <About onNavigate={setCurrentPage} />}
