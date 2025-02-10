@@ -40,7 +40,6 @@ export default function About({ onNavigate }: ProjectsProps) {
       className="flex flex-col items-center justify-center p-4 w-full h-full w-full"
     >
       <title>projects.</title>
-      <meta name="description" content="projects by wiktor ramian" />
       <motion.div
         variants={staggerContainer}
         className="w-full h-full flex flex-col items-center justify-center"

@@ -17,7 +17,6 @@ export default function About({ onNavigate }: ContactProps) {
       className="flex flex-col items-center justify-center p-4 w-full md:w-2/3 lg:w-1/4 h-full"
     >
       <title>contact me.</title>
-      <meta name="description" content="contact wiktor ramian" />
       <motion.div
         variants={staggerContainer}
         className="w-full h-full flex flex-col items-center justify-center"

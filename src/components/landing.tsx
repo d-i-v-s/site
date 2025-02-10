@@ -20,7 +20,6 @@ export default function Landing({ onNavigate }: LandingProps) {
       className="flex flex-col items-center justify-center p-4 w-full md:w-2/3 lg:w-1/4 h-32"
     >
       <title>wiktor ramian.</title>
-      <meta name="description" content="wiktor ramian's portfolio" />
       <motion.div
         variants={staggerContainer}
         className="w-full h-full flex flex-col items-center justify-center"
