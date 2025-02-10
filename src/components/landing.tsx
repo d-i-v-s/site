@@ -19,9 +19,11 @@ export default function Landing({ onNavigate }: LandingProps) {
       exit="exit"
       className="flex flex-col items-center justify-center p-4 w-full md:w-2/3 lg:w-1/4 h-32"
     >
+      <title>wiktor ramian.</title>
       <motion.div
         variants={staggerContainer}
         className="w-full h-full flex flex-col items-center justify-center"
+
       >
         <motion.div
           variants={fadeInUp}
