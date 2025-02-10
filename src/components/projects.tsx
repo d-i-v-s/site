@@ -14,7 +14,7 @@ export default function About({ onNavigate }: ProjectsProps) {
       initial="hidden"
       animate="enter"
       exit="exit"
-      className="flex flex-col items-center justify-center p-4 w-1/4 h-full"
+      className="flex flex-col items-center justify-center p-4 w-full md:w-2/3 lg:w-1/4 h-full"
     >
       <motion.div
       variants={staggerContainer}

@@ -1,18 +1,18 @@
 export const pageTransitionsUp = {
-  hidden: { opacity: 0, y: 20 },
+  hidden: { opacity: 0, y: 15 },
   enter: { 
     opacity: 1, 
     y: 0,
     transition: {
-      duration: 0.4,
+      duration: 0.35,
       ease: [0.61, 1, 0.88, 1]
     }
   },
   exit: { 
     opacity: 0, 
-    y: -20,
+    y: -15,
     transition: {
-      duration: 0.4,
+      duration: 0.35,
       ease: [0.61, 1, 0.88, 1]
     }
   }

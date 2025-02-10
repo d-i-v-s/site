@@ -9,7 +9,7 @@ export default function Home() {
   const [currentPage, setCurrentPage] = useState("home");
 
   return (
-    <div className="flex flex-col items-center justify-center h-screen">
+    <div className="flex flex-col items-center justify-center min-h-screen px-4 md:px-8 lg:px-16">
       <AnimatePresence mode="wait">
         {currentPage === "home" && <Landing onNavigate={setCurrentPage} />}
         {currentPage === "about" && <About onNavigate={setCurrentPage} />}

@@ -13,7 +13,7 @@ export default function Landing({ onNavigate }: LandingProps) {
       initial="hidden"
       animate="enter"
       exit="exit"
-      className="flex flex-col items-center justify-center p-4 w-1/4 h-32"
+      className="flex flex-col items-center justify-center p-4 w-full md:w-2/3 lg:w-1/4 h-32"
 
     >
       <motion.div
@@ -22,7 +22,7 @@ export default function Landing({ onNavigate }: LandingProps) {
       >
         <motion.div
         variants={fadeInUp}
-        className="text-3xl font-bold"
+        className="text-2xl md:text-3xl font-bold"
         >
           <h1>wiktor ramian.</h1>
         </motion.div>
@@ -34,7 +34,7 @@ export default function Landing({ onNavigate }: LandingProps) {
         </motion.div>
         <motion.div 
           variants={fadeInUp}
-          className="flex flex-row items-center justify-center space-x-6"
+          className="flex flex-col space-y-4 md:flex-row md:space-y-0 md:space-x-6 items-center justify-center"
         >
           <motion.div
             whileHover={{ scale: 1.05 }}
