@@ -12,7 +12,6 @@ export default function Home() {
   return (
     <>
     <Head>
-      <title>wiktor ramian.</title>
       <meta name="description" content="wiktor ramian's portfolio" />
     </Head>
     <div className="flex flex-col items-center justify-center min-h-screen px-4 md:px-8 lg:px-16">
